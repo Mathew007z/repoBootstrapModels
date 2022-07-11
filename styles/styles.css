@@ -1,0 +1,182 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Monserrat' , sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+/*Menu*/
+
+#menu li > a{
+        font-size: 18px;
+        font-weight: bold;
+        color: #3f3f3f;
+
+}
+
+#menu form > button{
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*IMAGENES*/
+
+.carousel-inner{
+    max-height: 39rem;
+    
+}
+
+
+
+/*SECCION GALERIA HTML*/
+
+#galeria img{
+
+    width: 100%;
+    height: 250px;
+   
+
+
+}
+
+#galeria .col-lg-4{
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galeria img:hover{
+
+    border: 5px solid #f7f7f7;
+
+}
+
+/*SECCION SUCURSALES*/
+
+
+.card-123{
+    margin: 5em;
+    gap: 5em;
+    padding-top: 5em;
+}
+.card-img-top{
+    width: 100%;
+    
+}
+
+
+/*SECCION CONTACTO*/
+
+.padre__form{
+
+    margin-bottom: 5em;
+    background-color: #e7e9ec;
+}
+
+
+.d-block.w-100{
+    background-size: cover;
+}
+
+
+
+/*EQUIPO*/
+
+
+.card-321{
+    margin: 5em;
+    gap: 5em;
+    padding-top: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:576px){
+    
+    .icono-wrap{
+
+        flex-wrap: wrap;
+        
+        
+    }
+   
+}
+
