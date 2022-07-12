@@ -1,5 +1,13 @@
 
 
+
+
+:root{
+
+    --font-primary: 'Signika', sans-serif;
+    --font-secondary: 'Chakra Petch', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -31,12 +39,49 @@ body{
     font-weight: bold;
 }
 
+span.fs-4.fw-bold{
+    font-family: var(--font-primary);
+    color:#0E326A;
+}
+
+
+.collapse.navbar-collapse{
+    margin-left: 2em;
+    
+}
+
+.collapse.navbar-collapse li a{
+    margin-left: 3em;
+    font-family: var(--font-primary);
+}
+
+.title-intro{
+    font-family: var(--font-primary)
+}
+
+.span__intro{
+    color:#213c86; 
+}
+.paragraph__intro{
+    font-family: var(--font-primary);
+}
+
 
 /*IMAGENES*/
 
 .carousel-inner{
     max-height: 39rem;
     
+}
+
+.fs-5.mt-4.px-4.pb-1{
+    font-family: var(--font-primary);
+    color: #0E326A;
+    
+} 
+
+.h6{
+    font-family: var(--font-primary);
 }
 
 
@@ -61,6 +106,13 @@ body{
 
     border: 5px solid #f7f7f7;
 
+}
+
+
+.galery__title{
+    font-family: var(--font-primary);
+    color: #0E326A;
+    font-weight: bold;
 }
 
 /*SECCION SUCURSALES*/
@@ -89,6 +141,10 @@ body{
 .d-block.w-100{
     background-size: cover;
 }
+ .form__title{
+    font-family: var(--font-primary);
+    color: #0E326A;
+ }
 
 
 
@@ -101,8 +157,20 @@ body{
     padding-top: 5em;
 }
 
+.equipo__title{
+    font-family: var(--font-primary);
+}
 
+.card-title{
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    color: #0E326A;
 
+}
+
+.card-text{
+    font-weight: bold;
+}
 
 
 
